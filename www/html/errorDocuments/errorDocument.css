@@ -10,7 +10,7 @@
 .header_text {
     font-size: 64px;
     line-height: 100%;
-    font-family: rakkas;
+    font-family: josefin;
     text-align: center;
     text-transform: uppercase;
 
@@ -25,7 +25,7 @@
 
 .p1 {
     font-size: 24px;
-    font-family: inconsolata;
+    font-family: ubuntu;
     color: #000000;
     text-decoration: none;
     text-align: center;
@@ -36,7 +36,7 @@
 
 .p2 {
     font-size: 20px;
-    font-family: inconsolata;
+    font-family: ubuntu;
     color: #000000;
     text-decoration: none;
     text-align: center;
