@@ -1,0 +1,28 @@
+name: Find and Replace Href File Extension
+
+# only trigger on pull request closed events
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+  workflow_dispatch:
+    
+jobs:
+  deploy_on_pi:
+    name: Deploy to Raspberry Pi Server
+    if: github.event.pull_request.merged == true
+  
+    runs-on: [self-hosted, linux, ARM]
+    
+    steps:
+      - name: Checkout the main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
+      - name: Change directory to path of Java Archive and run GitHubActionFindAndReplace.jar
+        run: |
+          cd /var/ieeeguelph.ca/actions-runner/_ieeeguelph.ca_work/ieeeguelph.ca/ieeeguelph.ca/tools/Java/GitHubActionFindAndReplace/dist
+          java -jar GitHubActionFindAndReplace.jar "/var/ieeeguelph.ca/actions-runner/_ieeeguelph.ca_work/ieeeguelph.ca/ieeeguelph.ca/www" ".html\" data-remove-file-extension=\"true\"" "\" data-remove-file-extension=\"true\""
+        shell: bash
