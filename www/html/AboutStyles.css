@@ -48,3 +48,50 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+.main_content {
+    flex: 1;
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 40px;
+
+    margin-bottom: 100px;
+}
+
+.proj_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin-bottom: 75px;
+}
+
+.box_title {
+    flex: 1;
+}
+
+.proj_box_content {
+    flex: 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.box_title,
+.proj_header {
+    font-size: 24px;
+    font-family: josefin;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.proj_header:link,
+.proj_header:visited {
+    color: #1470AF;
+}
