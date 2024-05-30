@@ -68,20 +68,15 @@
     margin-bottom: 75px;
 }
 
-.box_title {
-    flex: 1;
-}
-
 .le_box_content {
     flex: 2;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
-    row-gap: 30px;
+    row-gap: 80px;
 }
 
-.box_title,
 .le_box_header {
     font-size: 24px;
     font-family: josefin;
@@ -91,7 +86,8 @@
     margin-bottom: 30px;
 }
 
-.le_box_header:link,
-.le_box_header:visited {
-    color: #1470AF;
+.le_box_name {
+    font-family: ubuntu;
+    font-size: 20px;
+    line-height: 150%;
 }
