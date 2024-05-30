@@ -49,6 +49,12 @@
     border-radius: 10px;
 }
 
+.le_box_image {
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .le_team_content {
     flex: 1;
 
