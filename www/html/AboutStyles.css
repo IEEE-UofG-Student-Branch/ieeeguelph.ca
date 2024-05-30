@@ -49,7 +49,7 @@
     border-radius: 10px;
 }
 
-.main_content {
+.le_team_content {
     flex: 1;
 
     margin-left: 10vw;
@@ -59,7 +59,7 @@
     margin-bottom: 100px;
 }
 
-.proj_box {
+.le_box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -72,7 +72,7 @@
     flex: 1;
 }
 
-.proj_box_content {
+.le_box_content {
     flex: 2;
 
     display: grid;
@@ -82,7 +82,7 @@
 }
 
 .box_title,
-.proj_header {
+.le_box_header {
     font-size: 24px;
     font-family: josefin;
     text-align: left;
@@ -91,7 +91,7 @@
     margin-bottom: 30px;
 }
 
-.proj_header:link,
-.proj_header:visited {
+.le_box_header:link,
+.le_box_header:visited {
     color: #1470AF;
 }
