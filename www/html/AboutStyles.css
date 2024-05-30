@@ -30,6 +30,8 @@
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 20px;
+
+    color: #68A3B9;
 }
 
 .p1 {
@@ -45,4 +47,53 @@
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.le_box_image {
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.le_team_content {
+    flex: 1;
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 40px;
+
+    margin-bottom: 100px;
+}
+
+.le_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+    margin-bottom: 75px;
+}
+
+.le_box_content {
+    flex: 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 80px;
+}
+
+.le_box_header {
+    font-size: 24px;
+    font-family: josefin;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.le_box_name {
+    font-family: ubuntu;
+    font-size: 20px;
+    line-height: 150%;
 }

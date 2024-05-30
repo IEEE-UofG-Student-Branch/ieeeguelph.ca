@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: rgb(234, 234, 238);
+    background-color: #F7FDFF;
 }
 
 p {
@@ -71,6 +71,8 @@ p {
     font-family: josefin;
     font-size: 40px;
     text-align: center;
+
+    color: #68A3B9;
 }
 
 .container {
