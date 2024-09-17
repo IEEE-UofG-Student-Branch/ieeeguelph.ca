@@ -120,8 +120,15 @@
 
 .feature1_img,
 .feature2_img {
-    width: 100%;
+    width: 50%;
     border-radius: 15px;
+
+    /*
+    Temp centering for when there is only 1 featured event
+    */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .more_proj_text_box {
