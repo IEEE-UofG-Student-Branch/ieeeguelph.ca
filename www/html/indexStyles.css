@@ -111,6 +111,8 @@
     text-decoration: none;
 
     margin-top: 15px;
+
+    text-decoration: line-through;
 }
 
 .feature_blurb_text {
